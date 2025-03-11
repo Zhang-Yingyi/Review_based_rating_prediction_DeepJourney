@@ -1,0 +1,32 @@
+# 忽略Python临时文件
+__pycache__/
+*.pyc
+
+# 忽略ipynb文件
+.ipynb_checkpoints/
+
+# 忽略数据集
+*.csv
+glove.*
+
+
+# 忽略IDE相关配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log
+
+# 忽略环境变量文件
+.env
+
+# 忽略MacOS系统文件
+.DS_Store
+
+# 忽略Python虚拟环境
+venv/
+__pycache__/
+
+# 忽略脚本文件
+*.sh
+*.tar.gz
