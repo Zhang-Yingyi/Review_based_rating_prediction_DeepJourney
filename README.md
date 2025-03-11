@@ -129,27 +129,27 @@ Note: photo, image,picture are all incicate that the review with image. **And in
 ## baseline
 ### Metrods
 
-- **PMF** : Probabilistic Matrix Factorization (PMF), introduced in 2007, learns latent vectors representing users and items from a user-item matrix.
+- **PMF** (@NIPS 2008): Probabilistic Matrix Factorization (PMF), introduced in 2007, learns latent vectors representing users and items from a user-item matrix.
 
-- **FM** : Factorization Machine (FM), proposed in 2010, effectively calculates interactions between variables through factorization.
+- **FM** (@ICDM 2010): Factorization Machine (FM), proposed in 2010, effectively calculates interactions between variables through factorization.
 
-- **DeepCoNN** : Deep Cooperative Neural Networks (DeepCoNN), introduced in 2016, utilizes convolutional neural networks (CNNs) to extract user and item features from review texts for rating prediction.
+- **DeepCoNN** (@WSDM 2017): Deep Cooperative Neural Networks (DeepCoNN), introduced in 2016, utilizes convolutional neural networks (CNNs) to extract user and item features from review texts for rating prediction.
 
-- **D-attn** : The Dual Attention-based model (D-attn), proposed in 2017, extends DeepCoNN by incorporating dual local and global attention mechanisms to evaluate user and item preferences for rating prediction.
+- **D-attn** (@RecSys 2017): The Dual Attention-based model (D-attn), proposed in 2017, extends DeepCoNN by incorporating dual local and global attention mechanisms to evaluate user and item preferences for rating prediction.
 
-- **ANR** : Aspect-based Neural Recommender (ANR), introduced in 2018, models user opinions across multiple aspects and item features from reviews to enhance recommendation quality.
+- **ANR** (@CIKM 2018): Aspect-based Neural Recommender (ANR), introduced in 2018, models user opinions across multiple aspects and item features from reviews to enhance recommendation quality.
 
-- **NARRE** : Neural Attentional Rating Regression with Review-Level Explanations (NARRE), proposed in 2018, refines review-based methods by evaluating individual review contributions separately rather than treating reviews as a single aggregated document.
+- **NARRE** (@WWW 2018): Neural Attentional Rating Regression with Review-Level Explanations (NARRE), proposed in 2018, refines review-based methods by evaluating individual review contributions separately rather than treating reviews as a single aggregated document.
 
-- **AHN** : Asymmetrical Hierarchical Network (AHN), introduced in 2020, is the first model to asymmetrically analyze user interests across diverse item reviews, extending traditional symmetrical approaches.
+- **AHN** (@AAAI 2020): Asymmetrical Hierarchical Network (AHN), introduced in 2020, is the first model to asymmetrically analyze user interests across diverse item reviews, extending traditional symmetrical approaches.
 
-- **AHAG** : Adaptive Hierarchical Attention-enhanced Gated Network (AHAG), proposed in 2020, employs gated mechanisms to fuse review content and user interactions using hierarchical attention for improved rating prediction.
+- **AHAG** (@TKDE 2022): Adaptive Hierarchical Attention-enhanced Gated Network (AHAG), proposed in 2020, employs gated mechanisms to fuse review content and user interactions using hierarchical attention for improved rating prediction.
 
-- **RMCL** : Review-based Multi-intention Contrastive Learning (RMCL), introduced in 2023, pioneers the analysis of multiple user intentions within reviews using contrastive learning techniques.
+- **RMCL** (@SIGIR 2023): Review-based Multi-intention Contrastive Learning (RMCL), introduced in 2023, pioneers the analysis of multiple user intentions within reviews using contrastive learning techniques.
 
-- **RRPU** : Review-based Recommendation with Preference Uncertainty (RRPU), proposed in 2024, is the first method to model user preference uncertainty from review information using a probabilistic generative framework.
+- **RRPU** (@EJOR 2024): Review-based Recommendation with Preference Uncertainty (RRPU), proposed in 2024, is the first method to model user preference uncertainty from review information using a probabilistic generative framework.
 
-- **RPMIA** : Rating Prediction Model based on Multi-Interactive Attention (RPMIA), proposed in 2025, uniquely explores aspect-pair interactions between consumers and items for enhanced rating prediction.
+- **RPMIA** (@IJOC 2025): Rating Prediction Model based on Multi-Interactive Attention (RPMIA), proposed in 2025, uniquely explores aspect-pair interactions between consumers and items for enhanced rating prediction.
 
 
 ### results
