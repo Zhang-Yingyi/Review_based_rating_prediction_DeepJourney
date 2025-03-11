@@ -129,7 +129,7 @@ Note: photo, image,picture are all incicate that the review with image. **And in
 ## baseline
 ### Metrods
 
-- **PMF** (@NIPS 2008): Probabilistic Matrix Factorization (PMF), introduced in 2007, learns latent vectors representing users and items from a user-item matrix.
+- **PMF** (@NIPS 2007): Probabilistic Matrix Factorization (PMF), introduced in 2007, learns latent vectors representing users and items from a user-item matrix.
 
 - **FM** (@ICDM 2010): Factorization Machine (FM), proposed in 2010, effectively calculates interactions between variables through factorization.
 
