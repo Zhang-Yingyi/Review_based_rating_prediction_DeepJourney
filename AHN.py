@@ -106,20 +106,6 @@ class AHN(nn.Module):
         item_agg_vec_r =  torch.sum(item_agg_vec, dim = 1)
         user_agg_vec_r = torch.sum(user_agg_vec, dim = 1)
 
-        # item review level aggregation
-        # item_attn_Q_r = F.tanh(self.att_linear_i_Q_r(item_agg_vec)) #[bs,10,50]
-        # item_attn_K_r = F.sigmoid(self.att_linear_i_K_r(i_s)) #[bs,10,50]
-        # item_attn_V_r = torch.matmul(item_attn_Q_r*item_attn_K_r,self.att_i_V_r) #[bs,10,1]
-        # item_attn_score_r = F.softmax(item_attn_V_r,dim = 1) #[bs,10,1]
-        # item_agg_vec_r =  torch.sum(item_attn_score_r * i_s, dim = 1) #[bs,2*50]
-
-        # user item review level co attention
-        # co_att_u_r = self.co_att_linear_u_r(user_agg_vec) #[bs,10,50]
-        # co_att_i_r = self.co_att_linear_i_r(item_agg_vec).permute(0,2,1) #[bs,50,10]
-        # G = F.relu(torch.matmul(torch.matmul(co_att_u_r,self.M_r),co_att_i_r)) #[bs,10,10]
-        # a_u_i = F.max_pool1d(G * item_attn_score,seq_num) #[bs,10,1]
-        # user_agg_vec_r = torch.sum(F.softmax(a_u_i,1) * u_s, dim = 1) #[bs,2*50]
-
         # id embedding
         u_id_embd = self.user_embedding(uid)
         i_id_embd = self.item_embedding(iid)
